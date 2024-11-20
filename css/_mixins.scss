@@ -1,0 +1,23 @@
+@use 'variables';
+
+@mixin basic-btn {
+  width: 130px;
+  padding: 10px;
+  border: 2px solid variables.$primary-color;
+  border-radius: 4px;
+  color: variables.$primary-color;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  transition: .4s;
+}
+
+@mixin center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
